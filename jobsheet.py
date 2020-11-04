@@ -1,6 +1,8 @@
 #Sistem Matematika
-#Membuat Program Menghitung Luas dan keliling Bangun Datar
-#Dibuat Oleh Sindu Masri Priandana dan 
+#Membuat Program Menghitung Luas dan keliling Bangun Datar 
+
+
+
 
 from Ipython.display import clear_output
 
