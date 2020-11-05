@@ -1,11 +1,36 @@
 #Sistem Matematika
 #Membuat Program Menghitung Luas dan keliling Bangun Datar 
 
-
-from Ipython.display import clear_output
-
-def cls() :
-    clear_output(True)
+def luas_bujur_sangkar (s):
+    luas = s*s
+    return luas
+def keliling_bujur_sangkar (s):
+    keliling = 4*s
+    return keliling
+def luas_persegi_panjang (p,l):
+    luas = p*l
+    return luas 
+def keliling_persegi_panjang (p,l):
+    keliling = 2*(p+l)
+    return keliling
+def luas_segitiga (a,t):
+    luas = 0.5*a*t
+    return luas
+def keliling_segitiga (a,b,c):
+    keliling = a+b+c
+    return keliling 
+def luas_lingkaran (r):
+    luas = 3.14*r*r
+    return luas
+def keliling_lingkaran (r):
+    keliling = 2*3.14*r
+    return keliling
+def luas_jajar_genjang (a,t):
+    luas = a*t
+    return luas
+def keliling_jajar_genjang (a,b):
+    keliling = 2*(a+b)
+    return keliling
 
 pilihan = 1
 while pilihan !=0:
