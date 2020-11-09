@@ -1,0 +1,63 @@
+1.	Kelebihan Pseudocode
+•	Dapat mempermudah dalam pembuatan algoritma
+•	Mudah dalam membaca algoritma(langkah-langkahnya)
+Kekurangan Pseudocode
+•	Tidak dapat dibaca oleh computer secara langsung sebab masih berupa algoritma
+•	Harus diubah ke Bahasa tertentu agar dapat di baca computer
+
+2.	Pseudocode dari Kuadrat jumlah 2 bilangan
+Algoritma hitung_kuadrat dari jumlah dua bilangan
+  {Menghitung kuadrat dari jumlah dua bilangan = ( a + b ) ^ 2 }
+Deklarasi
+Var, a,b : integer
+Deskripsi 
+Begin 
+Read(a,b,);
+{hitung kuadrat dari jumlah dua bilangan }
+rumus  sqrt(a+b)^2 ;
+
+write(‘Hasil kuadrat dari jumlah dua bilangan = ‘,rumus);
+
+
+3.	Pseudocode dari Perkalian 3 bilangan
+Algoritma hitung_perkalian tiga bilangan
+  {Menghitung perkalian tiga bilangan = ( a * b * c ) }
+Deklarasi
+Var, a,b,c : integer
+Deskripsi 
+Begin 
+Read(a,b,c);
+{hitung perkalian tiga bilangan }
+rumus  sqrt(a*b*c) ;
+
+write(‘Hasil kuadrat dari jumlah dua bilangan = ‘,rumus);
+
+
+
+
+
+
+
+
+4.	Implementasi No 2 dalam Bahasa Python dan Bahasa C
+Bahasa Python
+#Kuadrat dari Penjumlahan 2 bilangan integer
+print('')
+a=int (input("Masukkan nilai a : "))
+b=int (input("Masukkan nilai b : "))
+print('')
+def penjumlahan_kuadrat (a,b):
+    penjumlahan_kuadrat =  ( a + b ) **2
+    return penjumlahan_kuadrat
+print("hasil Penjumlahannya :",penjumlahan_kuadrat (a,b))
+Bahasa C
+#include <stdio.h>
+main ()
+{
+	int a,b,kuadrat_penjumlahan;
+	printf(“Bilangan 1 :”);scanf(“%d”,&a);
+	printf(“Bilangan 2 :”);scanf(“%d”,&b);
+	kuadrat_penjumlahan = (a+b)^2;
+printf(“Hasil Jumlahnya = %d”, kuadrat_penjumlahan);
+return 0;
+}
